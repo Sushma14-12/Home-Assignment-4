@@ -1,0 +1,8 @@
+Role of Temperature in Text Generation
+Temperature scaling affects the randomness of the predictions:
+
+Low temperature (<1.0): makes the model more conservative, choosing high-probability characters. Output is more predictable and repetitive.
+
+High temperature (>1.0): increases diversity, giving a chance to less likely characters. This makes the output more creative, but possibly less coherent.
+
+Temperature = 1.0: keeps the model’s output probabilities unchanged.
